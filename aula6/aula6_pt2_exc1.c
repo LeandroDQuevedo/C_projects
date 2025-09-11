@@ -5,6 +5,7 @@
 
 
 
+
 int somaPositivos(int x, int y){
 
     if (x > 0 && y > 0)
@@ -17,19 +18,18 @@ int somaPositivos(int x, int y){
 
    }
 
-
-float diveide(int x, int y){
-    if (y = 0)
+float divide(float x, float y){
+    if (y == 0)
     {
         printf("Erro: divisor = 0");
         return 0;
     }
 
-    float div = x/y;
+    float div;
+    div = x/y;
 
     return div;
 }
-
 
 char verificaTriangulo(int x, int y, int z){
 
@@ -85,7 +85,6 @@ void contaAte300(int x){
 
 }
 
-
 int verificaPrimo(int num){
 
     if (num < 0)
@@ -135,7 +134,6 @@ int achaMaior(int x, int y, int z){
     }
 }
 
-
 void imprimePares(int x){
     for (size_t i = 0; i < x; i++)
     {
@@ -147,7 +145,6 @@ void imprimePares(int x){
     }
     
 }
-
 
 
 
